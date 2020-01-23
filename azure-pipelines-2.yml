@@ -8,7 +8,7 @@ resources:
   - repository: frontend
     type: github
     name: redditXFL/front-end
-    endpoint: redditXFLServiceConnection
+    endpoint: redditXFL
     
 trigger:
   batch: true
