@@ -14,8 +14,3 @@ pr:
     include:
       - master
 
-resources:
-  repositories:
-  - repository: front-end
-    name: redditXFL/front-end 
-    type: github
