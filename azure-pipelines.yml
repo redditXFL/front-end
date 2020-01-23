@@ -4,6 +4,18 @@
 # https://aka.ms/yaml
 
 
+trigger:
+batch: true
+branches:
+  include: 
+  - master
+
+pr:
+  branches:
+    include:
+      - master
+
+
 resources:
   repositories:
   - repository: front-end
