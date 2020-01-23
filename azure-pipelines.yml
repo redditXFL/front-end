@@ -9,15 +9,3 @@ batch: true
 branches:
   include: 
   - master
-
-pr:
-  branches:
-    include:
-      - master
-
-
-resources:
-  repositories:
-  - repository: front-end
-    name: redditXFL/front-end 
-    type: github
